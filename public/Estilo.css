@@ -289,9 +289,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /* Latest News Area css
 ============================================================================================ */
+/* --------------------------
+:: Banner Sevico CSS
+-------------------------- */
 
-/* Our Service Area css
-============================================================================================ */
+
+/* --------------------------
+:: Banner Sevico CSS
+-------------------------- */
+
 .service_area {
   margin-top: 50px;
   background: url(../img/service-bg.jpg) no-repeat fixed center center;
@@ -300,6 +306,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   padding: 115px 0px;
 }
+
+
+/* Our Service Area css
+============================================================================================ */
 
 .service_area:before {
   content: "";
@@ -662,3 +672,250 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .copyright-text > p {
     margin-bottom: 0;
 }
+
+/* Border Button Area css
+============================================================================================ */
+.read_btn {
+  height: 46px;
+  width: 160px;
+  line-height: 48px;
+  color: #232d37;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  text-align: center;
+  position: relative;
+  background-size: 200% auto;
+  z-index: 2;
+  display: block;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+}
+
+.read_btn:before {
+  content: "";
+  background: #f7f7f7;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 98%;
+  height: 42px;
+  z-index: -1;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.read_btn:hover {
+  background-position: right center;
+  color: #232d37;
+}
+
+.tp_btn {
+  height: 46px;
+  width: 165px;
+  text-align: center;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image-slice: 1;
+  display: block;
+  line-height: 42px;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  position: relative;
+  z-index: 3;
+  margin: auto;
+}
+
+.tp_btn:after {
+  content: "";
+  height: 46px;
+  width: 165px;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: -moz-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  -webkit-border-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  border-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  border-image: -ms-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  border-image-slice: 1;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.tp_btn:hover {
+  color: #fff;
+}
+
+.tp_btn:hover:after {
+  opacity: 1;
+}
+
+.bg_btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  -webkit-transition: all 400ms ease-out !important;
+  -o-transition: all 400ms ease-out !important;
+  transition: all 400ms ease-out !important;
+  background-size: 200% auto;
+  border: none;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bg_btn:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+.bg_btn:focus {
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff)) !important;
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  -webkit-transition: all 400ms ease-out !important;
+  -o-transition: all 400ms ease-out !important;
+  transition: all 400ms ease-out !important;
+  background-size: 200% auto;
+}
+
+.more_btn {
+  color: #2bc0a4;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  line-height: 26px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.more_btn:hover {
+  text-decoration: none;
+  color: #2bc0a4;
+}
+
+.submit_btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding: 0px 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  background-size: 200% auto;
+  border: none;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+.submit_btn:focus {
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff)) !important;
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  background-size: 200% auto;
+}
+
+.submit_btn2 {
+  height: 46px;
+  width: 165px;
+  line-height: 46px;
+  color: #232d37;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  text-align: center;
+  position: relative;
+  background-size: 200% auto;
+  z-index: 2;
+  display: block;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  padding: 0px;
+  border-radius: 2px;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.submit_btn2:before {
+  content: "";
+  background: #f7f7f7;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 97.5%;
+  height: 40px;
+  z-index: -1;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.submit_btn2:hover {
+  background-position: right center;
+  color: #232d37;
+}
+
+/* End Border Button Area css

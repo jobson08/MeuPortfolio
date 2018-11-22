@@ -286,8 +286,12 @@ export default StyleSheet.create({
   },
   // Latest News Area css
 ============================================================================================
-  // Our Service Area css
-============================================================================================
+  // --------------------------
+:: Banner Sevico CSS
+--------------------------
+  // --------------------------
+:: Banner Sevico CSS
+--------------------------
   service_area: {
     marginTop: [{ unit: 'px', value: 50 }],
     background: 'url(../img/service-bg.jpg) no-repeat fixed center center',
@@ -296,6 +300,8 @@ export default StyleSheet.create({
     zIndex: '2',
     padding: [{ unit: 'px', value: 115 }, { unit: 'px', value: 0 }, { unit: 'px', value: 115 }, { unit: 'px', value: 0 }]
   },
+  // Our Service Area css
+============================================================================================
   'service_area:before': {
     content: '""',
     background: 'rgba(4, 8, 29, 0.7)',

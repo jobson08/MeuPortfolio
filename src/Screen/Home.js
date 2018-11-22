@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import Banner from '../Components/Banner'
+import BannerHome from '../Components/BannerHome'
 
 class Home extends Component{
   render() {
     return (
       <div>
 
-      <Banner />
+      <BannerHome />
 
       {/*================Creative Feature Area =================*/}
       <section className='creative_feature_area'>

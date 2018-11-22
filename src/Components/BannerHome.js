@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Banner extends Component{
+class BannerHome extends Component{
   render() {
     return (
       <div>
@@ -23,4 +23,4 @@ class Banner extends Component{
     );
   }
 }
-export default Banner;
+export default BannerHome;
