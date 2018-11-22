@@ -114,12 +114,19 @@ export default StyleSheet.create({
 :: Banner Area CSS
 --------------------------
   banner_area: {
-    backgroundImage: 'url(img/Paisagem.jpg)',
-    height: [{ unit: 'px', value: 700 }],
+    background: 'url(../img/Paisagem.jpg) no-repeat fixed center center',
+    backgroundSize: 'cover',
     position: 'relative',
-    zIndex: '1',
-    backgroundPosition: 'bottom center',
-    backgroundSize: 'cover'
+    zIndex: '2',
+    padding: [{ unit: 'px', value: 115 }, { unit: 'px', value: 0 }, { unit: 'px', value: 115 }, { unit: 'px', value: 0 }],
+    height: [{ unit: 'px', value: 700 }]
+  },
+  banner_contato: {
+    background: 'url(../img/slider-1.jpg) no-repeat fixed center center',
+    backgroundSize: 'cover',
+    position: 'relative',
+    zIndex: '2',
+    padding: [{ unit: 'px', value: 115 }, { unit: 'px', value: 0 }, { unit: 'px', value: 115 }, { unit: 'px', value: 0 }]
   },
   'banner-heading > h2': {
     fontSize: [{ unit: 'px', value: 100 }],
@@ -371,63 +378,13 @@ export default StyleSheet.create({
   // Border Button Area css
 ============================================================================================
   // --------------------------
-:Footer Area CSS
+:: Banner Contato CSS
 --------------------------
-  'footer-social': {
-    background: '#d7dde8',
-    padding: [{ unit: 'px', value: 5 }, { unit: 'px', value: 0 }, { unit: 'px', value: 5 }, { unit: 'px', value: 0 }]
-  },
-  'footer-text > h2': {
-    color: '#5b32b4',
-    fontSize: [{ unit: 'px', value: 72 }],
-    fontWeight: '700'
-  },
-  'footer-social-icon > a > i': {
-    background: '#9b69e4',
-    fontSize: [{ unit: 'px', value: 14 }],
-    color: '#ffffff',
-    height: [{ unit: 'px', value: 40 }],
-    width: [{ unit: 'px', value: 40 }],
-    lineHeight: [{ unit: 'px', value: 40 }],
-    fontWeight: '500',
-    borderRadius: '10px 10px 10px 0px',
-    marginRight: [{ unit: 'px', value: 10 }]
-  },
-  'footer-social-icon > a > i:hover': {
-    background: '#fb397d',
-    color: '#fff',
-    WebkitTransitionDuration: '500ms',
-    OTransitionDuration: '500ms',
-    transitionDuration: '500ms'
-  },
-  'social-icon': {
-    marginBottom: [{ unit: 'px', value: 30 }]
-  },
-  'footer-text': {
-    marginBottom: [{ unit: 'px', value: 15 }]
-  },
-  'footer-menu ul li': {
-    display: 'inline-block'
-  },
-  'footer-menu ul li a': {
-    borderRight: [{ unit: 'px', value: 2 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#726a84' }],
-    display: 'block',
-    padding: [{ unit: 'px', value: 0 }, { unit: 'px', value: 7.5 }, { unit: 'px', value: 0 }, { unit: 'px', value: 7.5 }],
-    color: '#726a84'
-  },
-  'footer-social-icon > a active': {
-    background: '#fb397d'
-  },
-  'footer-menu ul li:last-child a': {
-    borderRight: [{ unit: 'px', value: 0 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ddd' }]
-  },
-  'footer-social-icon': {
-    marginBottom: [{ unit: 'px', value: 40 }]
-  },
-  'footer-menu': {
-    marginBottom: [{ unit: 'px', value: 15 }]
-  },
-  'copyright-text > p': {
-    marginBottom: [{ unit: 'px', value: 0 }]
+  banner_contato: {
+    background: 'url(../img/slider-1.jpg) no-repeat fixed center center',
+    backgroundSize: 'cover',
+    position: 'relative',
+    zIndex: '2',
+    padding: [{ unit: 'px', value: 115 }, { unit: 'px', value: 0 }, { unit: 'px', value: 115 }, { unit: 'px', value: 0 }]
   }
 });
