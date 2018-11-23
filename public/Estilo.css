@@ -537,8 +537,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .footer-social{
 background: linear-gradient(to right, #dad299, #b0dab9);
-
-  padding: 5px 0px;
+padding: 5px 0px;
 }
 .footer-text > h2 {
     color: #5b32b4;
