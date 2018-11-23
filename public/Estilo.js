@@ -42,8 +42,7 @@ export default StyleSheet.create({
     margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }],
     padding: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }]
   },
-  // Main title css
-============================================================================================
+  // ==================Conteudo Main title css==============================
   'main_title h2': {
     fontSize: [{ unit: 'px', value: 40 }],
     lineHeight: [{ unit: 'px', value: 48 }],
@@ -93,11 +92,8 @@ export default StyleSheet.create({
     paddingTop: [{ unit: 'px', value: 10 }],
     color: '#51545f'
   },
-  // Main title css
-============================================================================================
-  // --------------------------
-:NavBar Area CSS
---------------------------
+  // ==================Conteudo Main title css==============================
+  // ==================Componente NavBar css==============================
   'navbar-nav li a:hover': {
     color: '#009688  !important',
     // cor prymatia
@@ -110,9 +106,8 @@ export default StyleSheet.create({
     backgroundColor: '#fff !important',
     borderRadius: '10px'
   },
-  // --------------------------
-:: Banner Area CSS
---------------------------
+  // ==================Componente NavBar css==============================
+  // ==================Componente Banner Home css==============================
   banner_area: {
     background: 'url(../img/Paisagem.jpg) no-repeat fixed center center',
     backgroundSize: 'cover',
@@ -149,8 +144,8 @@ export default StyleSheet.create({
     opacity: '.1',
     MsFilter: '"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"'
   },
-  // Creative Feature Area css
-============================================================================================
+  // ==================Componente Banner Home css==============================
+  // ==================Pagina Home css==============================
   creative_feature_area: {
     background: '#f7f7f7'
   },
@@ -226,13 +221,12 @@ export default StyleSheet.create({
   d_feature_img: {
     paddingLeft: [{ unit: 'px', value: 70 }]
   },
-  // End Creative Feature Area css
-============================================================================================
-  // Latest News Area css
-============================================================================================
+  // ==================Pagina Home css==============================
+  // ==================Pagina Sobre css==============================
   latest_news_area: {
     marginTop: [{ unit: 'px', value: 100 }],
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: [{ unit: 'px', value: 20 }]
   },
   l_news_item: {
     WebkitTransition: 'all 400ms linear 0s',
@@ -284,14 +278,8 @@ export default StyleSheet.create({
     WebkitBoxShadow: '0px 25px 49px 0px rgba(58, 74, 88, 0.1)',
     boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 25 }, { unit: 'px', value: 49 }, { unit: 'px', value: 0 }, { unit: 'string', value: 'rgba(58, 74, 88, 0.1)' }]
   },
-  // Latest News Area css
-============================================================================================
-  // --------------------------
-:: Banner Sevico CSS
---------------------------
-  // --------------------------
-:: Banner Sevico CSS
---------------------------
+  // ==================Pagina Sobre css==============================
+  // ==================Componente Banner Sevico css==============================
   service_area: {
     marginTop: [{ unit: 'px', value: 50 }],
     background: 'url(../img/service-bg.jpg) no-repeat fixed center center',
@@ -300,8 +288,8 @@ export default StyleSheet.create({
     zIndex: '2',
     padding: [{ unit: 'px', value: 115 }, { unit: 'px', value: 0 }, { unit: 'px', value: 115 }, { unit: 'px', value: 0 }]
   },
-  // Our Service Area css
-============================================================================================
+  // ==================Componente Banner Sevico css==============================
+  // ==================Pagina Sevico css==============================
   'service_area:before': {
     content: '""',
     background: 'rgba(4, 8, 29, 0.7)',
@@ -338,54 +326,8 @@ export default StyleSheet.create({
     maxWidth: [{ unit: 'px', value: 360 }],
     margin: [{ unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }]
   },
-  // End Our Service Area css
-============================================================================================
-  // Border Button Area css
-============================================================================================
-  read_btn: {
-    height: [{ unit: 'px', value: 46 }],
-    width: [{ unit: 'px', value: 160 }],
-    lineHeight: [{ unit: 'px', value: 48 }],
-    color: '#232d37',
-    fontFamily: '"Poppins", sans-serif',
-    fontWeight: '600',
-    fontSize: [{ unit: 'px', value: 13 }],
-    textTransform: 'uppercase',
-    backgroundImage: '-webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff))',
-    backgroundImage: '-webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%)',
-    backgroundImage: '-o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%)',
-    backgroundImage: 'linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%)',
-    textAlign: 'center',
-    position: 'relative',
-    backgroundSize: '200% auto',
-    zIndex: '2',
-    display: 'block',
-    WebkitTransition: 'all 400ms ease-out',
-    OTransition: 'all 400ms ease-out',
-    transition: 'all 400ms ease-out'
-  },
-  'read_btn:before': {
-    content: '""',
-    background: '#f7f7f7',
-    position: 'absolute',
-    left: [{ unit: 'px', value: 2 }],
-    top: [{ unit: 'px', value: 2 }],
-    width: [{ unit: '%H', value: 0.98 }],
-    height: [{ unit: 'px', value: 42 }],
-    zIndex: '-1',
-    WebkitTransition: 'all 400ms linear 0s',
-    OTransition: 'all 400ms linear 0s',
-    transition: 'all 400ms linear 0s'
-  },
-  'read_btn:hover': {
-    backgroundPosition: 'right center',
-    color: '#232d37'
-  },
-  // Border Button Area css
-============================================================================================
-  // --------------------------
-:: Banner Contato CSS
---------------------------
+  // ==================Pagina Sevico css==============================
+  // ==================Componente Banner Contato css==============================
   banner_contato: {
     background: 'url(../img/slider-1.jpg) no-repeat fixed center center',
     backgroundSize: 'cover',

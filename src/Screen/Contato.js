@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import BannerContato from '../Components/BannerContato'
+import Botao from'../Components/Botao'
+
 
 class Contato extends Component{
   render() {
@@ -40,7 +42,7 @@ class Contato extends Component{
                                 <div className='contact_d_list_item'>
                                     <p>Horário de funcionamento: 8.00-18.00 seg-sex  <br />Domingo: fechado</p>
                                 </div>
-                            </div>                  
+                            </div>
                         </div>
                     </div>
                     <div className='col-lg-6'>
@@ -62,9 +64,7 @@ class Contato extends Component{
                                 <div className='form-group col-lg-12'>
                                     <textarea className='form-control' name='message' id='message' rows='1' placeholder='Messagens'></textarea>
                                 </div>
-                                <div className='form-group col-md-12'>
-                                    <button type='submit' value='submit' className='btn submit_btn2 form-control'>Emviar Mensagens</button>
-                                </div>
+                                <Botao texto='Emviar Mensagens' />
                             </form>
                         </div>
                     </div>

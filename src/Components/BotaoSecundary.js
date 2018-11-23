@@ -5,7 +5,7 @@ class Botao extends Component {
     return (
 
         <div className='form-group col-md-12'>
-            <button type='submit' value='submit' className='btn submit_btn2 form-control'>{this.props.texto}</button>
+            <button class="btn btn-secondary submit_btn" type="button">{this.props.texto}</button>
         </div>
 
     );

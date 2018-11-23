@@ -14,8 +14,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 0px;
 }
 
-/* Main title css
-============================================================================================ */
+/* ==================Conteudo Main title css============================== */
 .main_title h2 {
   font-size: 40px;
   line-height: 48px;
@@ -72,23 +71,18 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-top: 10px;
   color: #51545f;
 }
-
-/* Main title css
-============================================================================================ */
+/* ==================Conteudo Main title css============================== */
 
 
-/* --------------------------
-:NavBar Area CSS
--------------------------- */
+/* ==================Componente NavBar css============================== */
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #009688  !important; /* cor prymatia*/
     background-color: #fff !important;
     border-radius: 10px;
 }
+/* ==================Componente NavBar css============================== */
 
-/* --------------------------
-:: Banner Area CSS
--------------------------- */
+/* ==================Componente Banner Home css============================== */
 .banner_area {
   background: url(../img/Paisagem.jpg) no-repeat fixed center center;
   background-size: cover;
@@ -126,9 +120,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
     opacity: .1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
+/* ==================Componente Banner Home css============================== */
 
-/* Creative Feature Area css
-============================================================================================ */
+
+/* ==================Pagina Home css============================== */
 .creative_feature_area {
   background: #f7f7f7;
 }
@@ -216,49 +211,40 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .d_feature_img {
   padding-left: 70px;
 }
+/* ==================Pagina Home css============================== */
 
-/* End Creative Feature Area css
-============================================================================================ */
-
-/* Latest News Area css
-============================================================================================ */
+/* ==================Pagina Sobre css============================== */
 .latest_news_area{
   margin-top: 100px;
   text-align: center;
+  margin-bottom: 20px;
 }
-
 .l_news_item {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
-
 .l_news_item .l_news_img {
   overflow: hidden;
 }
-
 .l_news_item .l_news_img a {
   display: block;
 }
-
 .l_news_item .l_news_img img {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
-
 .l_news_item .l_news_img img:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
-
 .l_news_item .l_news_content {
   border: 1px solid #ebebeb;
   border-top: 0px;
   padding: 30px 35px;
 }
-
 .l_news_item .l_news_content h4 {
   font-size: 18px;
   color: #232d37;
@@ -268,11 +254,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
-
 .l_news_item .l_news_content h4:hover {
   color: #2bc0a4;
 }
-
 .l_news_item .l_news_content p {
   font-size: 14px;
   line-height: 26px;
@@ -281,22 +265,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   padding: 15px 0px 10px 0px;
 }
-
 .l_news_item:hover {
   -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
   box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
 }
+/* ==================Pagina Sobre css============================== */
 
-/* Latest News Area css
-============================================================================================ */
-/* --------------------------
-:: Banner Sevico CSS
--------------------------- */
-
-
-/* --------------------------
-:: Banner Sevico CSS
--------------------------- */
+/* ==================Componente Banner Sevico css============================== */
 
 .service_area {
   margin-top: 50px;
@@ -307,10 +282,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 115px 0px;
 }
 
+/* ==================Componente Banner Sevico css============================== */
 
-/* Our Service Area css
-============================================================================================ */
-
+/* ==================Pagina Sevico css============================== */
 .service_area:before {
   content: "";
   background: rgba(4, 8, 29, 0.7);
@@ -351,61 +325,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
   max-width: 360px;
   margin: auto;
 }
+/* ==================Pagina Sevico css============================== */
 
-/* End Our Service Area css
-============================================================================================ */
-
-
-
-/* Border Button Area css
-============================================================================================ */
-.read_btn {
-  height: 46px;
-  width: 160px;
-  line-height: 48px;
-  color: #232d37;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
-  text-align: center;
-  position: relative;
-  background-size: 200% auto;
-  z-index: 2;
-  display: block;
-  -webkit-transition: all 400ms ease-out;
-  -o-transition: all 400ms ease-out;
-  transition: all 400ms ease-out;
-}
-
-.read_btn:before {
-  content: "";
-  background: #f7f7f7;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  width: 98%;
-  height: 42px;
-  z-index: -1;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.read_btn:hover {
-  background-position: right center;
-  color: #232d37;
-}
-/* Border Button Area css
-============================================================================================ */
-
-/* --------------------------
-:: Banner Contato CSS
--------------------------- */
+/* ==================Componente Banner Contato css============================== */
 .banner_contato {
   background: url(../img/slider-1.jpg) no-repeat fixed center center;
   background-size: cover;
@@ -462,9 +384,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-/* Contact Us Area css
-============================================================================================ */
+/* ==================Componente Banner Contato css============================== */
+
+/* ==================Pagina Contato css============================== */
 .contact_us_area {
+  background: #e4e4d9;
   padding: 10px 0px;
 }
 .mapBox {
@@ -594,17 +518,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   margin-top: 10px;
 }
-/* End Contact Us Area css
-============================================================================================ */
+/* ===================Contato css============================== */
 
 
 
+/* ==================Componente Footer css============================== */
 
-/* --------------------------
-:Footer Area CSS
--------------------------- */
 .footer-social{
-  background: #d7dde8;
+background: linear-gradient(to right, #dad299, #b0dab9);
 
   padding: 5px 0px;
 }
@@ -650,9 +571,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
     border-right: 2px solid #726a84;
     display: block;
     padding: 0 7.5px;
-    color: #726a84;
+    color: #000;
 }
-
 .footer-social-icon > a .active {
     background: #fb397d;
 }
@@ -672,9 +592,36 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .copyright-text > p {
     margin-bottom: 0;
 }
+/* ==================Componente Footer css============================== */
 
-/* Border Button Area css
-============================================================================================ */
+
+/* ====================Componente Button secundary css==================== */
+.btn-secondary {
+  height: 46px;
+  width: 160px;
+  text-align: center;
+  line-height: 48px;
+  color: #232d37;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
+  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  position: relative;
+  background-size: 200% auto;
+  z-index: 2;
+  display: block;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+}
+/* ====================Componente Button secundary css==================== */
+
+
+/*======================= Componente Border Button css======================= */
 .read_btn {
   height: 46px;
   width: 160px;
@@ -917,5 +864,4 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background-position: right center;
   color: #232d37;
 }
-
-/* End Border Button Area css
+/*======================= Componente Border Button css======================= */

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import BannerHome from '../Components/BannerHome'
+import Botao from'../Components/Botao'
+import BotaoSecundary from'../Components/BotaoSecundary'
 
 class Home extends Component{
   render() {
@@ -43,7 +45,7 @@ class Home extends Component{
                               </div>
                               <p>Temos o que  a de inovação para produção de conteudo moderno e com qualidade.</p>
                               <p>Mostre os seus produtos e sua marca e fale para nos  as suas dificuldades para se lançar neste vasto mercado on-line.</p>
-                              <a className='read_btn' href='#'>Consulte Mais</a>
+                              <BotaoSecundary texto='Entrar' />
                           </div>
                       </div>
                       <div className='col-lg-6'>
