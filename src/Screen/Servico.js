@@ -14,23 +14,23 @@ class Servico extends Component{
                     <div className='row service_item_inner'>
                         <div className='col-lg-4'>
                             <div className='service_item'>
-                                <i className='fa fa-gem'></i>
-                                <h4>Design do site</h4>
-                                <p>A fantasia que reconhece o talento e esforço dos melhores web designers, desenvolvedores e agências do mundo.</p>
-                            </div>
-                        </div>
-                        <div className='col-lg-4'>
-                            <div className='service_item'>
-                                <i className='fa fa-desktop'></i>
-                                <h4>Desenvolvimento de sites</h4>
-                                <p>A fantasia que reconhece o talento e esforço dos melhores web designers, desenvolvedores e agências do mundo.</p>
+                                <i className='fa fa-pencil-ruler'></i>
+                                <h4>Produção</h4>
+                                <p>Depois de aprovados, os itens criados seguem para a produção. É aqui onde vemos de uma maneira tangível todos os processos anteriores se concretizar.</p>
                             </div>
                         </div>
                         <div className='col-lg-4'>
                             <div className='service_item'>
                                 <i className='fa fa-bullhorn'></i>
                                 <h4>Marketing digital</h4>
-                                <p>A fantasia que reconhece o talento e esforço dos melhores web designers, desenvolvedores e agências do mundo.</p>
+                                <p>Divulgar sua marca e produto, desenvolver uma imagem corporativa de integridade, manter um bom relacionamento com seu público interno e externo.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='service_item'>
+                                <i className='fa fa-rocket'></i>
+                                <h4>Publicação</h4>
+                                <p>A No website, no Youtube, no Facebook e nos diversos canais disponíveis, aumentando a audiência e potencializando o investimento.</p>
                             </div>
                         </div>
                     </div>

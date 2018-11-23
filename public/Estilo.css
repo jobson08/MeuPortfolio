@@ -120,6 +120,10 @@ body, p, h1, h2, h3, h4, h5, h6 {
     opacity: .1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
+.texto-banner{
+  font-size: 30px;
+}
+
 /* ==================Componente Banner Home css============================== */
 
 
@@ -319,7 +323,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .service_item p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
   max-width: 360px;
@@ -351,6 +355,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-top: 200px;
 }
 .banner_text_inner h4 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+.banner_text_inner h2 {
   color: #fff;
   font-size: 48px;
   font-weight: 500;

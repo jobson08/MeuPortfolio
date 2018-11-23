@@ -34,7 +34,7 @@ class Contato extends Component{
                             <div className='contact_d_list'>
                                 <div className='contact_d_list_item'>
                                     <a href='#'>(800) 686-6688</a>
-                                    <a href='#'>info.deercreative@gmail.com</a>
+                                    <a href='#'>criativaprodutora@gmail.com</a>
                                 </div>
                                 <div className='contact_d_list_item'>
                                     <p>40 Baria Sreet 133/2 <br /> NewYork City, US</p>

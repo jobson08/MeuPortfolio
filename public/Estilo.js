@@ -144,6 +144,9 @@ export default StyleSheet.create({
     opacity: '.1',
     MsFilter: '"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"'
   },
+  'texto-banner': {
+    fontSize: [{ unit: 'px', value: 30 }]
+  },
   // ==================Componente Banner Home css==============================
   // ==================Pagina Home css==============================
   creative_feature_area: {
@@ -320,7 +323,7 @@ export default StyleSheet.create({
     padding: [{ unit: 'px', value: 18 }, { unit: 'px', value: 0 }, { unit: 'px', value: 12 }, { unit: 'px', value: 0 }]
   },
   'service_item p': {
-    fontSize: [{ unit: 'px', value: 14 }],
+    fontSize: [{ unit: 'px', value: 17 }],
     lineHeight: [{ unit: 'px', value: 26 }],
     fontFamily: '"Poppins", sans-serif',
     maxWidth: [{ unit: 'px', value: 360 }],

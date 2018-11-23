@@ -30,7 +30,7 @@ class Footer extends Component{
                   </nav>
               </div>
               <div className='copyright-text'>
-                  <p>Copyright ©2018 j. Designed  <a href='https://produtoracriativa.com' target='_blank'>ProdutoraCriativa</a></p>
+                  <p>Copyright ©2018 j. Designed  <a href='https://criativaprodutora.com' target='_blank'>Criativa Produtora</a></p>
               </div>
           </footer>
       </div>

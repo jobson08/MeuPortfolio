@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import BannerHome from '../Components/BannerHome'
-import Botao from'../Components/Botao'
 import BotaoSecundary from'../Components/BotaoSecundary'
 
 class Home extends Component{
@@ -44,9 +43,12 @@ class Home extends Component{
                                   <h2>Somos uma criativa <br /> Agência Digital focada no crescimento de marcas e produtos on-line</h2>
                               </div>
                               <p>Temos o que  a de inovação para produção de conteudo moderno e com qualidade.</p>
-                              <p>Mostre os seus produtos e sua marca e fale para nos  as suas dificuldades para se lançar neste vasto mercado on-line.</p>
-                              <BotaoSecundary texto='Entrar' />
-                          </div>
+
+                            <p>Mostre os seus produtos e sua marca e fale para nos  as suas dificuldades para se lançar neste vasto mercado on-line.</p>
+
+                          <BotaoSecundary texto='conulte mais' />
+
+                        </div>
                       </div>
                       <div className='col-lg-6'>
                           <div className='d_feature_img'>

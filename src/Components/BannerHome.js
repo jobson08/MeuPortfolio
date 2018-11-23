@@ -11,9 +11,7 @@ class BannerHome extends Component{
                     <div className='banner-heading'>
                         <h2>Portfolio</h2>
                         <h3>M</h3>
-                        <p className='texto-banner'>Fique informado</p>
-                    </div>
-                    <div className='get-start-area'>
+                        <p className='texto-banner'>Participe</p>
                     </div>
                 </div>
             </div>
