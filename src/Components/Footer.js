@@ -18,6 +18,7 @@ class Footer extends Component{
                   <a href='https://twitter.com/login?lang=pt' target='_blank'><i className='fab fa-twitter' aria-hidden='true'></i></a>
                   <a href='https://www.instagram.com/?hl=pt-br' target='_blank'> <i className='fab fa-instagram' aria-hidden='true'></i></a>
                   <a href='https://www.google.com/' target='_blank'><i className='fab fa-google' aria-hidden='true'></i></a>
+                  
               </div>
               <div className='footer-menu'>
                   <nav>

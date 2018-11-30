@@ -19,6 +19,9 @@ class Exemplo extends Component {
           <button className='buton' onClick={this.incremento}>+</button>
           {this.state.valor}
           <button className='buton'  onClick={this.decremento}>-</button>
+
+
+
       </div>
     );
   }

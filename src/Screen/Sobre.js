@@ -8,7 +8,7 @@ class Sobre extends Component{
           <section className='latest_news_area p_100'>
               <div className='container'>
                   <div className='b_center_title'>
-                      <h2>Quem Samos</h2>
+                      <h2>Quem Somos</h2>
                       <p>Somos uma agência digital criativa. Focado em Marcas Crescentes Online</p>
                   </div>
                   <div className='l_news_inner'>

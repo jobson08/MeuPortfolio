@@ -330,6 +330,84 @@ export default StyleSheet.create({
     margin: [{ unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }, { unit: 'string', value: 'auto' }]
   },
   // ==================Pagina Sevico css==============================
+  // ==================Plano de servico Css==============================
+  'pricing-plane-area': {
+    background: '#f5f9fc'
+  },
+  'titulo >h2': {
+    color: '#5b32b4',
+    margin: [{ unit: 'px', value: 30 }, { unit: 'px', value: 30 }, { unit: 'px', value: 30 }, { unit: 'px', value: 30 }],
+    fontSize: [{ unit: 'px', value: 50 }]
+  },
+  'single-price-plan': {
+    background: '#ffffff',
+    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ebebeb' }],
+    borderRadius: '30px 30px 30px 0',
+    marginBottom: [{ unit: 'px', value: 30 }]
+  },
+  'single-price-plan package-plan': {
+    padding: [{ unit: 'px', value: 70 }, { unit: 'px', value: 0 }, { unit: 'px', value: 70 }, { unit: 'px', value: 0 }],
+    borderRadius: '30px 30px 0 0'
+  },
+  'single-price-plan package-plan > h5': {
+    color: '#5b32b4',
+    fontSize: [{ unit: 'px', value: 18 }]
+  },
+  'single-price-plan package-plan ca-price h4': {
+    color: '#fb397d',
+    fontSize: [{ unit: 'px', value: 48 }],
+    position: 'relative',
+    zIndex: '1',
+    marginBottom: [{ unit: 'px', value: 0 }],
+    lineHeight: [{ unit: 'px', value: 1 }]
+  },
+  'single-price-plan package-plan ca-price span': {
+    fontSize: [{ unit: 'px', value: 18 }],
+    color: '#fb397d'
+  },
+  'single-price-plan plan-button > a': {
+    background: '#726a84',
+    padding: [{ unit: 'px', value: 15 }, { unit: 'px', value: 0 }, { unit: 'px', value: 15 }, { unit: 'px', value: 0 }],
+    borderBottomRightRadius: '30px',
+    color: '#ffffff',
+    fontSize: [{ unit: 'px', value: 16 }],
+    fontWeight: '500',
+    display: 'block',
+    WebkitTransitionDuration: '500ms',
+    OTransitionDuration: '500ms',
+    transitionDuration: '500ms'
+  },
+  'single-price-plan package-description > p': {
+    marginBottom: [{ unit: 'px', value: 0 }],
+    lineHeight: [{ unit: 'px', value: 1 }],
+    padding: [{ unit: 'px', value: 15 }, { unit: 'px', value: 0 }, { unit: 'px', value: 15 }, { unit: 'px', value: 0 }],
+    borderBottom: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ebebeb' }]
+  },
+  'single-price-plan package-description > p:first-child': {
+    borderTop: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ebebeb' }]
+  },
+  'single-price-plan:hover package-plan': {
+    backgroundColor: '#a865e1'
+  },
+  'single-price-plan:hover plan-button > a': {
+    backgroundColor: '#a865e1'
+  },
+  'single-price-plan:hover plan-button > a': {
+    backgroundColor: '#a865e1'
+  },
+  'single-price-plan:hover package-plan ca-price > h4': {
+    color: '#fff'
+  },
+  'single-price-plan:hover package-plan ca-price > span': {
+    color: '#fff'
+  },
+  'single-price-plan:hover package-plan > h5': {
+    color: '#fff'
+  },
+  'single-price-plan:hover plan-button > a': {
+    color: '#fff'
+  },
+  // ==================Plano de servico Css==============================
   // ==================Componente Banner Contato css==============================
   banner_contato: {
     background: 'url(../img/slider-1.jpg) no-repeat fixed center center',
