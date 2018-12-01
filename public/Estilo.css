@@ -80,6 +80,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
     background-color: #fff !important;
     border-radius: 10px;
 }
+.LogoLog {
+  border-radius:30px ;
+  font-size:20px;
+  font-family: "Poppins", sans-serif;
+}
 /* ==================Componente NavBar css============================== */
 
 /* ==================Componente Banner Home css============================== */
@@ -614,10 +619,33 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 /* ===================Contato css============================== */
 
+/* ===================Dashboard  css============================== */
+.Dashboard{
+  margin: 100px;
+}
+/* ===================Dashboard  css============================== */
+
+/* ===================Entrar-log  css============================== */
+.Entrar-log{
+    margin: 130px;
+}
+
+/* ===================Entrar-log css============================== */
+
+/* ===================projeto-detalhe  css============================== */
+.projeto-detalhe{
+    margin: 120px;
+}
+/* ===================projeto-detalhe  css============================== */
+
+/* ===================cadastro-log css============================== */
+.cadastro-log{
+    margin: 120px;
+}
+/* ===================cadastro-log css============================== */
 
 
 /* ==================Componente Footer css============================== */
-
 .footer-social{
 background: linear-gradient(to right, #dad299, #b0dab9);
 padding: 5px 0px;

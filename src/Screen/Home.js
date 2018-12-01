@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import BannerHome from '../Components/BannerHome'
 import BotaoSecundary from'../Components/BotaoSecundary'
 
+
 class Home extends Component{
   render() {
     return (
@@ -60,6 +61,8 @@ class Home extends Component{
           </div>
       </section>
     {/*================End Creative Feature Area =================*/}
+
+
       </div>
     );
   }

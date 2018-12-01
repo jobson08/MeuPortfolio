@@ -5,6 +5,21 @@ import Botao from'../Components/Botao'
 
 
 class Contato extends Component{
+  state={
+    nome:'',
+    email:'',
+    password:''
+  }
+  handleChange = (e) =>{
+  this.setState({
+    [e.target.id]: e.target.value
+  })
+}
+  handleSubmit = (e) =>{
+  e.preventDefault();
+  console.log(this.state);
+  }
+
   render() {
     return (
       <div>
@@ -51,20 +66,20 @@ class Contato extends Component{
                                 <h2>Entre em contato conosco!</h2>
                                 <p>Preencha o formulário abaixo para receber um livre e confidencial.</p>
                             </div>
-                            <form className='contact_us_form row' action='contact_process.php' method='post' id='contactForm' novalidate='novalidate'>
+                            <form onSubmit={this.handleSubmit} className='contact_us_form row' action='contact_process.php' method='post' id='contactForm' >
                                 <div className='form-group col-lg-12'>
-                                    <input type='text' className='form-control' id='name' name='name' placeholder='Nome'/>
+                                    <input type='text' className='form-control' id='nome' name='nome' placeholder='Nome' onChange={this.handleChange}/>
                                 </div>
                                 <div className='form-group col-lg-12'>
-                                    <input type='email' className='form-control' id='email' name='email' placeholder='Email'/>
+                                    <input type='email' className='form-control' id='email' name='email' placeholder='Email' onChange={this.handleChange}/>
                                 </div>
                                 <div className='form-group col-lg-12'>
-                                    <input type='text' className='form-control' id='subject' name='subject' placeholder='Website'/>
+                                    <input type='text' className='form-control' id='Website' name='Website' placeholder='Website' onChange={this.handleChange}/>
                                 </div>
                                 <div className='form-group col-lg-12'>
-                                    <textarea className='form-control' name='message' id='message' rows='1' placeholder='Messagens'></textarea>
+                                    <textarea className='form-control' name='message' id='message' rows='1' placeholder='Messagens'  onChange={this.handleChange} ></textarea>
                                 </div>
-                                <Botao texto='Emviar Mensagens' />
+                                <Botao type="submit" texto='Emviar Mensagens' />
                             </form>
                         </div>
                     </div>

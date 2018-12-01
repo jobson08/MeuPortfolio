@@ -106,6 +106,11 @@ export default StyleSheet.create({
     backgroundColor: '#fff !important',
     borderRadius: '10px'
   },
+  LogoLog: {
+    borderRadius: '30px',
+    fontSize: [{ unit: 'px', value: 20 }],
+    fontFamily: '"Poppins", sans-serif'
+  },
   // ==================Componente NavBar css==============================
   // ==================Componente Banner Home css==============================
   banner_area: {
