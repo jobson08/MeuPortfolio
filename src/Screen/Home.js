@@ -25,7 +25,7 @@ class Home extends Component{
                       <div className='col-lg-4'>
                           <div className='c_box_item'>
                               <a href='#'><h4><i className='fa fa-clock' aria-hidden='true'></i> Perícia</h4></a>
-                              <p>Temos uma equipe estremamente qualificado para li atender.</p>
+                              <p>Temos uma equipe estremamente qualificado para li atender .</p>
                           </div>
                       </div>
                       <div className='col-lg-4'>
