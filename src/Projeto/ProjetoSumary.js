@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ProjetoSumary =() =>{
+const ProjetoSumary =({Projeto}) =>{
   return(
     <div className="card border-success mb-3" >
-      <div className="card-header">Header</div>
+      <div className="card-header">{Projeto.id}</div>
         <div className="card-body text-success">
-          <h5 className="card-title">Success card title</h5>
+          <h5 className="card-title">{Projeto.titulo}</h5>
           <p className="card-text">Some quick </p>
         </div>
     </div>

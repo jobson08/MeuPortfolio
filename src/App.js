@@ -13,6 +13,7 @@ import Dashboard from './PainelControle/Dashboard'
 import ProjetoDetalhe from './Projeto/ProjetoDetalhe'
 import EntrarLog from './Auth/EntrarLog'
 import CadastroLog from './Auth/CadastroLog'
+import CriaProjeto from './Projeto/CriaProjeto'
 
 class App extends Component {
   render() {
@@ -30,6 +31,8 @@ class App extends Component {
         <Route path='/Projeto/:id' component={ProjetoDetalhe} />
         <Route path='/EntrarLog' component={EntrarLog} />
         <Route path='/CadastroLog' component={CadastroLog} />
+        <Route path='/CriaProjeto' component={CriaProjeto} />
+
       </Switch>
        <Footer />
 

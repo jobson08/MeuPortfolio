@@ -71,7 +71,7 @@ class Servico extends Component{
             </div>
             {/* Plan Button  */}
             <div className='plan-button'>
-                <a href='#'>Select Plan</a>
+                <a href='#'>Selecione Plano</a>
             </div>
         </div>
     </div>
@@ -95,7 +95,7 @@ class Servico extends Component{
             </div>
             {/* Plan Button  */}
             <div className='plan-button'>
-                <a href='#'>Select Plan</a>
+                <a href='#'>Selecione Plano</a>
             </div>
         </div>
     </div>
@@ -119,7 +119,7 @@ class Servico extends Component{
             </div>
             {/* Plan Button  */}
             <div className='plan-button'>
-                <a href='#'>Select Plan</a>
+                <a href='#'>Selecione Plano</a>
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@ class Servico extends Component{
             </div>
             {/* Plan Button  */}
             <div className='plan-button'>
-                <a href='#'>Select Plan</a>
+                <a href='#'>Selecione Plano</a>
             </div>
         </div>
     </div>

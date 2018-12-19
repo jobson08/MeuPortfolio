@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+  min-height: 100%;
+}
 body {
   line-height: 26px;
   font-size: 14px;
@@ -85,6 +87,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size:20px;
   font-family: "Poppins", sans-serif;
 }
+
 /* ==================Componente NavBar css============================== */
 
 /* ==================Componente Banner Home css============================== */
@@ -643,6 +646,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
     margin: 120px;
 }
 /* ===================cadastro-log css============================== */
+
+
+/* ===================cria-projeto css============================== */
+.cria-projeto{
+    margin: 120px;
+}
+/* ===================cria-projetocss============================== */
 
 
 /* ==================Componente Footer css============================== */

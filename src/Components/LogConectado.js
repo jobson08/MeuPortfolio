@@ -5,8 +5,11 @@ import { NavLink} from 'react-router-dom'
 const LogConectado = ()=>{
     return (
       <ul className='navbar-nav '>
+        <li className='nav-item'>
+          <NavLink to='/Dashboard'className='nav-link'>Dashboard </NavLink>
+        </li>
       <li className='nav-item'>
-        <NavLink to='/'className='nav-link'>Novo Projeto </NavLink>
+        <NavLink to='/CriaProjeto'className='nav-link'>Novo Projeto </NavLink>
       </li>
       <li className='nav-item'>
         <NavLink to='/'className='nav-link'>Sair</NavLink>

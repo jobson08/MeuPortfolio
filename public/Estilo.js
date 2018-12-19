@@ -5,6 +5,9 @@ export default StyleSheet.create({
     margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }],
     padding: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }]
   },
+  html: {
+    minHeight: [{ unit: '%V', value: 1 }]
+  },
   body: {
     lineHeight: [{ unit: 'px', value: 26 }],
     fontSize: [{ unit: 'px', value: 14 }],
